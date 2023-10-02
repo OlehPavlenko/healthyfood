@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 36px;
+    justify-content: space-between;
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+    
+}
+
+.logo {
+    margin-left: 165px;
+}
+
+.menu .menu-item + .menu-item {
+    margin-left: 45px;
+}
+
+.menu-item:nth-last-child(1) {
+margin-right: 165px;
+}
