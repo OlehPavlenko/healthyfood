@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
+    <section class="background">
     <header class="header">
       <a href="" class="logo">healthy switcher</a>
       <nav>
@@ -20,26 +22,31 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="caption">Your favourite food delivered hot & fresh</h1>
-        <p>HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
-        <button>Order Now</button>
+        <div class="container">
+        <h1 class="hero-caption">Your favourite food delivered hot & fresh</h1>
+        <p class="hero-text">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &<br> marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+        <button class="hero-button">Order Now</button>
+        </div>
       </section>
       <section class="sddress">
-        <ul>
-            <li>
-                <h2>Today 10:00 am - 7:00 pm</h2>
-                <p>Working hours</p>
+        <div class="container">
+        <ul class="address-nav">
+            <li class="address-nav--title">
+                <h2 class="address-nav--caption">Today 10:00 am - 7:00 pm</h2>
+                <p class="address-nav--text">Working hours</p>
             </li>
-            <li>
-                <h2>Velyka Vasylkivska 100</h2>
-                <p>Get Directions</p>
+            <li class="address-nav--title">
+                <h2 class="address-nav--caption">Velyka Vasylkivska 100</h2>
+                <p class="address-nav--text">Get Directions</p>
             </li>
-            <li>
-                <h2>+38 (063)833 24 15</h2>
-                <p>Call Online</p>
+            <li class="address-nav--title">
+                <h2 class="address-nav--caption">+38 (063)833 24 15</h2>
+                <p class="address-nav--text">Call Online</p>
             </li>
         </ul>
+    </div>
       </section>
+    </section>
       <section class="about">
         <h2>The Basics Of Healthy Food</h2>
         <p>In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip aliquip consectetur voluptate est. Eu minim dolore laboris enim mollit voluptate irure esse aliquip.</p>

@@ -1,0 +1,30 @@
+.address {
+
+}
+
+.address-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.address-nav .address-nav--title + .address-nav--title {
+    margin-left: 90px;
+}
+
+.address-nav--caption {
+    font-family: Helvetica Neue;
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.address-nav--text {
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-style: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 161px;
+}
