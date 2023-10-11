@@ -1,0 +1,50 @@
+.about {
+    background-color: #1A1A1A;
+}
+
+.about-container {
+    text-align: center;
+    background-color: #252525;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+    width: 1110px;
+    
+}
+
+.about-caption {
+    display: flex;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 6px;
+    padding-left: 295px;
+    padding-top: 60px;
+    padding-bottom: 61px;
+
+    background-image: url(/img/ABOUT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.about-text {
+    padding-left: 185px;
+    padding-right: 191px;
+    padding-bottom: 90px;
+    font-style: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #a6a6a6;
+}
+
+.about-list {
+    display: flex;
+    padding-left: 185px;
+    padding-right: 191px;
+    padding-bottom: 90px;
+}
+
+.about-list--img {
+    margin-right: 34px;
+}
