@@ -1,0 +1,58 @@
+.dishes {
+    background-color: #1a1a1a;
+}
+
+.dishes-container {
+    text-align: center;
+}
+
+.dishes-caption {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+    line-height: 90px;
+    padding-bottom: 60px;
+    padding-top: 55px;
+    
+
+    background-image: url(/img/dishes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dishes-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.dishes-link {
+    display: block;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dishes-element {
+    width: 350px;
+    height: 493px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: #252525;
+    border-radius: 6px;
+}
+
+// .dishes-element:nth-child(3n) {
+// margin-right: 0;
+// }
+
+.dishes-element:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.image {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}

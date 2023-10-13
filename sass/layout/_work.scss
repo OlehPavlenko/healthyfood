@@ -4,7 +4,6 @@
 
 .work-container {
     text-align: center;
-    width: 1110px;
 }
 
 .work-caption {
@@ -28,6 +27,7 @@
 .work-list {
     display: flex;
     flex-wrap: nowrap;
+    padding-bottom: 120px;
 }
 
 .work-list--item {
@@ -44,8 +44,27 @@
 .work-list--item:hover,
 .work-list--item:focus {
 background-color: #34C759;
+color: #191919;
 }
 
 .work-list--caption {
+    padding-bottom: 36px;
+    padding-top: 24px;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.275px;
+text-transform: capitalize;
+}
 
+.work-list--text {
+    padding-bottom: 60px;
+    padding-right: 31px;
+    padding-left: 24px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.162px;
 }
