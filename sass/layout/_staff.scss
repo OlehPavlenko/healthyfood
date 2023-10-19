@@ -1,0 +1,70 @@
+.staff {
+background-color: #1a1a1a;;
+}
+
+.staff-caption {
+    color: #D9D9D9;
+
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px;
+letter-spacing: 7.2px;
+text-transform: capitalize;
+
+background-image: url(/img/chefs.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.staff-list {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.staff-list--item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.staff-list--caption {
+    color: #FFF;
+    
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.225px;
+}
+
+.staff-list--text {
+    color: rgba(255, 255, 255, 0.50);
+
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+letter-spacing: -0.15px;
+}
+
+.staff-caption--position {
+    margin-left: 24px;
+}
+
+.staff-container--img {
+    margin-top: 24px;
+}
+
+.container-img--element {
+    padding-left: 30px;
+}
+
+.container-img--element:first-child {
+    padding-left: 0;
+}
