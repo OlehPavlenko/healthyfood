@@ -29,6 +29,11 @@ background-position: center;
     display: flex;
     flex-wrap: wrap;
     width: 350px;
+    margin-left: 30px;
+}
+
+.staff-list--item:first-child {
+    margin-left: 0px;
 }
 
 .staff-list--caption {
@@ -62,7 +67,7 @@ letter-spacing: -0.15px;
 }
 
 .container-img--element {
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .container-img--element:first-child {

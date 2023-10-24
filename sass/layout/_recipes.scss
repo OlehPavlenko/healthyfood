@@ -1,0 +1,148 @@
+.recipes-container {
+    text-align: center;
+}
+
+.recipes-caption {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+    line-height: 90px;
+    padding-bottom: 60px;
+    padding-top: 55px;
+    
+
+    background-image: url(/img/recipes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipes-list-position {
+    width: 540px;
+    height: 510px;
+
+    background-image: url(/img/grill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recipes-list--item__position {
+    margin-left: 30px;
+}
+
+.recipes-list--item {
+
+    width: 540px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 19px;
+    padding-right: 25px;
+    border-radius: 6px;
+    background: #252525;
+
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+.recipes-list--item:hover,
+.recipes-list--item:focus {
+    background-color: #34C759;
+}
+
+.recipes-button {
+    color: #FFF;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 60px;
+
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, 1) ;
+    border-radius: 6px;
+}
+
+.recipes-date {
+    color: #FFF;
+    margin-top: 65px;
+
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.recipes-text {
+    color: #FFF;
+    padding-top: 25px;
+    padding-right: 65px;
+    padding-left: 65px;
+
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+
+.recipes-chefs {
+    color: #FFF;
+    padding-top: 45px;
+
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.statistic-position {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.statistic-text {
+    color: #FFF;
+    padding-right: 27px;
+
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+
+.recipes-list--text {
+    color: #FFF;
+
+font-family: Helvetica Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 17px;
+}
+
+.recipes-position--list {
+    display: flex;
+}
+
+.background {
+    background-image: url(/img/glace.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

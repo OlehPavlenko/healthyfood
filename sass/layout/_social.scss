@@ -1,0 +1,35 @@
+.social-container {
+    text-align: center;
+}
+
+.social-caption {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+    line-height: 90px;
+    padding-bottom: 60px;
+    padding-top: 55px;
+    
+
+    background-image: url(/img/social.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-position {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.social-list {
+    width: 350px;
+    height: 350px;
+    background-color:#252525;
+    margin-left: 30px;
+}
+
+.social-list:first-child {
+    margin-left: 0;
+}

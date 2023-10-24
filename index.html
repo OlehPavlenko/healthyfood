@@ -193,7 +193,7 @@
             </div>
             </li>
             <li class="staff-list--item">
-                <img src="./img/greg.jpg" alt="">
+                <img src="./img/greg.jpg" alt="" width="65px">
                 <div class="staff-caption--position">
                 <h3 class="staff-list--caption">Greg Fox</h3>
                 <p class="staff-list--text">Сhef macro kitchen</p>
@@ -208,43 +208,52 @@
     </div>
       </section>
       <section class="recipes">
-        <ul>
-            <li>
-                <button>breakfast</button>
-                <p>05 Jul 2016</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-
-                <p>Jason Keller</p>
+        <div class="recipes-container container">
+            <h2 class="recipes-caption">Recipes From Our Chefs</h2>
+        <ul class="recipes-list">
+            <li class="">
+                <div class="recipes-list-position">
+                <button class="recipes-button">breakfast</button>
+                <p class="recipes-date">05 Jul 2016</p>
+                <p class="recipes-text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+                <p class="recipes-chefs">Jason Keller</p>
+                <div class="statistic-position">
+                <p class="statistic-text">275</p>
+                <p class="statistic-text">12</p>
+            </div>
+            </div>
             </li>
-        </ul>
-        <ul>
-            <li>
-                275
-            </li>
-            <li>12</li>
-        </ul>
-        <ul>
-            <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            <div class="recipes-list--item__position">
+            <li class="recipes-list--item">
+                <p class="recipes-list--text">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <div class="recipes-position--list">
                 <button>lunch</button>
                 <p>07 Jan 2016</p>
+            </div>
             </li>
-            <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            <li class="recipes-list--item background">
+                <p class="recipes-list--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <div class="recipes-position--list">
                 <button>lunch</button>
                 <p>07 Jan 2016</p>
+            </div>
             </li>
-            <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            <li class="recipes-list--item">
+                <p class="recipes-list--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <div class="recipes-position--list">
                 <button>lunch</button>
                 <p>07 Jan 2016</p>
+            </div>
             </li>
+        </div>
         </ul>
+    </div>
       </section>
       <section class="social">
-        <h2>We in Social</h2>
-        
-            <ul>
+        <div class="social-container container">
+        <h2 class="social-caption">We in Social</h2>
+        <div class="social-position">
+            <ul class="social-list">
             <li>
                 <p>Twitter</p>
                 <button>follow us</button>
@@ -255,11 +264,13 @@
                 <p>@DennisFerguson</p>
             </li>
         </ul>
-        <ul>
+        <ul class="social-list">
         <li>
             <p>Instagram</p>
             <button>follow us</button>
         </li>
+        </ul>
+        <ul class="social-list">
         <li>
             <p>Facebook</p>
             <button>follow us</button>
@@ -270,28 +281,39 @@
             
         </li>
     </ul>
+</div>
+</div>
       </section>
     </main>
-    <footer>
-        <ul>
-            <li>
-                <h2>Today 10:00 am - 7:00 pm</h2>
-                <p>Working hours</p>
+    <footer class="footer">
+        <div class="footer-address container">
+            <ul class="footer-address-nav">
+                <li class="address-nav--title">
+                    <h2 class="address-nav--caption">Today 10:00 am - 7:00 pm</h2>
+                    <p class="footer-nav--text">Working hours</p>
+                </li>
+                <li class="address-nav--title">
+                    <h2 class="address-nav--caption">Velyka Vasylkivska 100</h2>
+                    <p class="footer-nav--text">Get Directions</p>
+                </li>
+                <li class="address-nav--title">
+                    <h2 class="address-nav--caption">+38 (063)833 24 15</h2>
+                    <p class="footer-nav--text">Call Online</p>
+                </li>
+            </ul>
+        </div>
+        <ul class="footer-logo">
+            <li class="footer-item">
+                <a class="footer-logo" href="./index.html">
+                    <svg class="footer-addres-icon" width="25" height="24">
+                        <use href="./img/sprite.svg#icon-Logo-12"></use>
+                    </svg>
+                    <svg class="footer-addres-icon" width="173" height="11">
+                        <use href="./img/sprite.svg#icon-HEALTHY-SWITCHER"></use>
+                    </svg>
+                </a>
             </li>
-            <li>
-                <h2>Velyka Vasylkivska 100</h2>
-                <p>Get Directions</p>
-            </li>
-            <li>
-                <h2>+38 (063)833 24 15</h2>
-                <p>Call Online</p>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                Healthy Switcher
-            </li>
-            <li>© Designed by Yellow Snow. All Rights Reserved. </li>
+            <li class="footer-item">© Designed by Yellow Snow. All Rights Reserved. </li>
         </ul>
     </footer>
   </body>

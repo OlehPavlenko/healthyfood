@@ -1,0 +1,36 @@
+.footer {
+    background-color: #252525;
+}
+
+.footer-address-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-address-nav .address-nav--title + .address-nav--title {
+    margin-left: 90px;
+}
+
+.address-nav--title {
+    padding-top: 30px;
+    color: #fff;
+}
+
+.footer-nav--text {
+    padding-bottom: 33px;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-style: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-logo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer-item {
+    padding-bottom: 12px;
+}
