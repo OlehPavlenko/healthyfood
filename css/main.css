@@ -67,6 +67,7 @@ a {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 26, 26, 0)), to(rgb(26, 26, 26))), url(../img/placeholderhero.jpg);
   background-image: linear-gradient(rgba(26, 26, 26, 0), rgb(26, 26, 26)), url(../img/placeholderhero.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   max-width: 1600px;
 }
@@ -611,7 +612,7 @@ a {
   display: flex;
 }
 
-.background {
+.background-item {
   background-image: url(/img/glace.jpg);
   background-repeat: no-repeat;
   background-position: center;
