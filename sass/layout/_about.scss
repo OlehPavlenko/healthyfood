@@ -46,5 +46,15 @@
 }
 
 .about-list--img {
+    display: flex;
+    align-items: center;
     margin-right: 34px;
+}
+
+.about-icon--left {
+margin-right: 30px;
+}
+
+.about-icon--right {
+    margin-left: 30px;
 }

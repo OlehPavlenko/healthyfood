@@ -24,6 +24,7 @@
 }
 
 .recipes-list-position {
+    
     width: 540px;
     height: 510px;
 
@@ -146,3 +147,20 @@ padding-bottom: 17px;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.recipes-icon {
+    margin-right: 15px;
+    fill: #FFF;
+}
+
+.statistic-text {
+    display: block;
+    
+    align-items: center;
+}
+
+// .statistic-position {
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+// }

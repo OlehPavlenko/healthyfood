@@ -5,6 +5,11 @@
 .address-nav{
     display: flex;
     justify-content: center;
+    
+}
+
+.address-nav--title {
+    text-align: center;
 }
 
 .address-nav .address-nav--title + .address-nav--title {
@@ -27,4 +32,8 @@
     font-weight: 400;
     color: #fff;
     padding-bottom: 161px;
+}
+
+.header-nav-icon {
+    margin-bottom: 10px;
 }
