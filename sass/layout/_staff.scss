@@ -19,10 +19,24 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+.staff-caption::after{
+	content: "";
+	display: block;
+	background-color:#34C759;
+	height: 2px;
+	width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 600px;
+    bottom: -28px;
+}
+
 .staff-list {
     display: flex;
     padding-top: 60px;
     padding-bottom: 30px;
+    margin-bottom: 120px;
 }
 
 .staff-list--item {
