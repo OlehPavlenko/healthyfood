@@ -198,7 +198,7 @@ a {
   padding-left: 295px;
   padding-top: 60px;
   padding-bottom: 61px;
-  background-image: url(/img/ABOUT.png);
+  background-image: url(../img/ABOUT.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -251,7 +251,7 @@ a {
   line-height: 90px;
   letter-spacing: 7.2px;
   text-transform: capitalize;
-  background-image: url(/img/Work.png);
+  background-image: url(../img/Work.png);
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -354,7 +354,7 @@ a {
   font-weight: 400;
   line-height: 90px;
   letter-spacing: 7.2px;
-  background-image: url(/img/dishes.png);
+  background-image: url(../img/dishes.png);
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -523,7 +523,7 @@ a {
   line-height: 90px;
   letter-spacing: 7.2px;
   text-transform: capitalize;
-  background-image: url(/img/chefs.png);
+  background-image: url(../img/chefs.png);
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -610,7 +610,7 @@ a {
   font-weight: 400;
   line-height: 90px;
   letter-spacing: 7.2px;
-  background-image: url(/img/recipes.png);
+  background-image: url(../img/recipes.png);
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -637,8 +637,8 @@ a {
   padding: 65px 60px;
   width: 540px;
   height: 510px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 38, 38, 0)), to(rgba(38, 38, 38, 0.5))), url(/img/grill.png);
-  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0%, rgba(38, 38, 38, 0.5) 100%), url(/img/grill.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 38, 38, 0)), to(rgba(38, 38, 38, 0.5))), url(../img/grill.png);
+  background-image: linear-gradient(180deg, rgba(38, 38, 38, 0) 0%, rgba(38, 38, 38, 0.5) 100%), url(../img/grill.png);
 }
 
 .recipes__icon-link {
@@ -918,7 +918,7 @@ a {
   font-weight: 400;
   line-height: 90px;
   letter-spacing: 7.2px;
-  background-image: url(/img/social.png);
+  background-image: url(../img/social.png);
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
